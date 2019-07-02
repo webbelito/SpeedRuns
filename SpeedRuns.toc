@@ -1,0 +1,10 @@
+## Interface: 11200
+## Title: |cff33ffccSpeed|cffffffffRuns
+## Author: Webbe
+## Notes: A speed run timer for your levels
+## Version: 0.1
+## SavedVariables: SpeedRuns_PB, SpeedRuns_Gold
+## SavedVariablesPerCharacter: SpeedRuns_Splits
+
+# Main
+SpeedRuns.lua
