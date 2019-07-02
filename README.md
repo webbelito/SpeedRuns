@@ -2,7 +2,7 @@
 
 ## Description
 
-This addon will current only write a message to the chat when your character levels up. The plan is to add a GUI for you to track it like a common version of a Speed Running tool. However this provides some directions on how you're performing on a level basis.
+This addon will current only write a message to the chat when your character levels up. The plan is to add a GUI for you to track it like a common version of a Speed Running tool. However this provides some directions on how you're performing on a level to level basis.
 
 ## Examples
 
