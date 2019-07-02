@@ -4,6 +4,8 @@
 
 This addon will current only write a message to the chat when your character levels up. The plan is to add a GUI for you to track it like a common version of a Speed Running tool. However this provides some directions on how you're performing on a level to level basis.
 
+It stores the values on a Race and Class combination meaning that if you play a Tauren Warrior you will have a PB for Tauren Warrior and you'll have another one if you play an Orc Warrior. Of course this includes if you play another class.
+
 ## Examples
 
 First character to level up to level 2 as a Tauren Warrior:
@@ -34,3 +36,12 @@ World of Warcraft
 		   |- SpeedRuns.lua
 		   |- SpeedRuns.toc
 ```
+
+## Support
+
+Create an issue under Issues tab on GitHub and this will be supported on a GitHub basis.
+
+### Credits
+
+Developed by Webbe for World of Warcraft 1.12.1
+Twitch: http://twitch.tv/webbe for any type of support!
