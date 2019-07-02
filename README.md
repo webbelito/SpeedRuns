@@ -43,5 +43,6 @@ Create an issue under Issues tab on GitHub and this will be supported on a GitHu
 
 ### Credits
 
-Developed by Webbe for World of Warcraft 1.12.1
+Developed by Webbe for World of Warcraft 1.12.1.
+
 Twitch: http://twitch.tv/webbe for any type of support!
