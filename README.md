@@ -2,7 +2,7 @@
 
 First character to level up to level 2 as a Tauren Warrior:
 
-!(https://i.imgur.com/UAkydWf.png)
+![First character to level up to level 2 as a Tauren Warrior](https://i.imgur.com/UAkydWf.png)
 
 Second character to level up to level 2 as a Tauren Warrior: (New Personal Best)
 
