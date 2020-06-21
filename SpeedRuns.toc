@@ -1,5 +1,5 @@
-## Interface: 11200
-## Title: |cff33ffccSpeed|cffffffffRuns
+## Interface: 20400
+## Title: |cff33ffccFACTS |cffffffffSpeedRuns
 ## Author: Webbe
 ## Notes: A speed run timer for your levels
 ## Version: 0.1

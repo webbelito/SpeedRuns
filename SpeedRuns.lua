@@ -1,7 +1,7 @@
 SpeedRuns_EventHandler = CreateFrame("FRAME")
 SpeedRuns_EventHandler:RegisterEvent("ADDON_LOADED")
 
-local SpeedRuns_MaxLevel = 12
+local SpeedRuns_MaxLevel = 70
 local SpeedRuns_CurrentLevel = nil
 
 local SpeedRuns_LastLevel = nil
@@ -57,18 +57,20 @@ Also of course it will be individually recorded for each class.
 ]]
 
 function SpeedRuns_RegisterEvents()
-    for _,e in SpeedRuns_EventList do
+    
+    for _,e in pairs(SpeedRuns_EventList) do
         SpeedRuns_EventHandler:RegisterEvent(e)
     end
 end
 
 function SpeedRuns_UnregisterEvents()
-    for _,e in SpeedRuns_EventList do
+    for _,e in pairs(SpeedRuns_EventList) do
         SpeedRuns_EventList:UnregisterEvents(e)
     end
 end
 
 function SpeedRuns_EventHandler.ADDON_LOADED()
+
     if arg1 == "SpeedRuns" then
 
         _, SpeedRuns_RaceID = UnitRace("player")
@@ -98,8 +100,9 @@ function SpeedRuns_EventHandler.ADDON_LOADED()
         SpeedRuns_RegisterEvents()
         SpeedRuns_GenerateLevelSplit()
 
-        SpeedRuns_EventHandler:UnregisterEvent("ADDON_LOADED")
         DEFAULT_CHAT_FRAME:AddMessage("|cffffff88SpeedRuns|r loaded. See /speedruns usage")
+        SpeedRuns_EventHandler:UnregisterEvent("ADDON_LOADED")
+        
     end
 end
 
@@ -179,8 +182,8 @@ SpeedRuns_EventHandler:SetScript("OnEvent",
 
 function SpeedRuns_SplitsRange(range, level)
     SpeedRuns_SplitsMax = level+1
-    if SpeedRuns_SplitsMax > 60 then
-        SpeedRuns_SplitsMax = 60
+    if SpeedRuns_SplitsMax > 70 then
+        SpeedRuns_SplitsMax = 70
     elseif SpeedRuns_SplitsMax < range+2 then
         SpeedRuns_SplitsMax = range+2
     end
